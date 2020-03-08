@@ -6,7 +6,7 @@ const headers = {
 export default {
   login: function(email, password) {
     return axios.post(
-      `$/user/login`,
+      `/user/login`,
       {
         email,
         password
